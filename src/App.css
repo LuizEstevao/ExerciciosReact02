@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url(img/john-dean-wp2003043.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+:root {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.fundo {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  border: 4px solid rgb(0, 0, 0);
+  backdrop-filter: blur(5px);
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  flex-direction: column;
+  margin: 20px 0;
+  text-align: center;
+  box-shadow: 0px 0px 10px 4px rgb(229, 229, 229);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+#depay,
+img {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+}
+#botao {
+  margin: 10px;
+  display: flex;
+  width: 150px;
+  height: 50px;
+  color: black;
+  border: 2px solid black;
+  background-color: rgb(3, 158, 255);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px 4px rgb(229, 229, 229);
+}
+
+#fundoEx09{
+  display: inline-block;
+  background-color: black;
+  width: 400px;
+  height: 200px;
+  border: 4px solid rgb(255, 255, 255);
+  backdrop-filter: blur(5px);
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  flex-direction: column;
+  margin: 10px 0;
+  text-align: center;
+  box-shadow: 0px 0px 10px 4px rgb(229, 229, 229);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+}
